@@ -8,11 +8,11 @@ This container install Python3 and https://github.com/Netflix/conductor/tree/v2.
 
 ## Usage
 
-Create a Dockerfile from `rafamarts/conductor-client-py`
+Create a Dockerfile from `rafaelmm/conductor-client-py`
 
 ##### Example
 ```
-FROM rafamarts/conductor-client-py:2.31.1
+FROM rafaelmm/conductor-client-py:2.31.1
 
 
 COPY ./requirements.txt /app/requirements.txt
